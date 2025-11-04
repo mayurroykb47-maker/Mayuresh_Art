@@ -1,0 +1,49 @@
+<html>
+<html lang="en">
+<head>
+<meta name="description" content="Buy original sketches and custom art by Mayuresh" />
+<meta name="keywords" content="art, sketches, custom art, buy art online" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayuresh's Art Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mayuresh's Art & Sketches</h1>
+    <nav>
+      <a href="#gallery">Gallery</a>
+      <a href="#custom">Custom Orders</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="gallery">
+    <h2>Available Sketches</h2>
+    <div class="art-grid">
+      <!-- Add your sketches here -->
+      <div class="art-item">
+        <img src="art1.jpg" alt="Sketch 1" />
+        <p>Sketch Title</p>
+        <button onclick="buyNow('Sketch 1')">Buy Now</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="custom">
+    <h2>Request a Custom Sketch</h2>
+    <form id="customForm">
+      <input type="text" placeholder="Your Name" required />
+      <textarea placeholder="Describe your custom sketch" required></textarea>
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: mayurroykb47@gmail.com</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

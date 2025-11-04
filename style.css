@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdf6f0;
+}
+header {
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
+.art-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em;
+}
+.art-item {
+  background: white;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+.art-item img {
+  max-width: 100%;
+}
